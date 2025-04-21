@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Technology Course Portal</title>
+  <style>
+    /* CSS */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav {
+      margin-top: 15px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #ecf0f1;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+      padding: 5px 10px;
+    }
+    nav a:hover {
+      color: #3498db;
+      background: rgba(255,255,255,0.1);
+      border-radius: 4px;
+    }
+    section {
+      padding: 25px;
+      background: #fff;
+      margin: 20px auto;
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+      margin-top: 0;
+    }
+    .content-block {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 6px;
+    }
+    .content-block h3 {
+      color: #2980b9;
+      margin-top: 0;
+    }
+    .content-img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      margin: 10px 0;
+    }
+    .content-img:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      background: #2c3e50;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    pre {
+      background: #2c3e50;
+      color: #ecf0f1;
+      padding: 15px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    .lab-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .lab-item {
+      flex: 1 1 300px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Technology Course Portal</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#syllabus">Syllabus</a>
+      <a href="#lab">Lab Manual</a>
+      <a href="#examples">Examples</a>
+      <a href="#references">References</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div                                                                     class="content-block">
+      <h2>🌐Course Overview</h2>
+      <p>Course Introduction<br>
+ This course provides a comprehensive foundation in modern web technologies, covering both front-end (client-side) and back-end (server-side) development. Students will learn to design, develop, and deploy interactive websites and web applications using industry-standard tools and programming languages.</br><br>Course Objectives<br>
+        <br>By the end of this course, students will be able to:
+<br>✔ Build responsive websites using HTML5, CSS3, and JavaScript
+<br>✔ Develop dynamic web apps with PHP and MySQL
+<br>✔ Work with XML for data representation and exchange
+<br>✔ Write Perl scripts for server-side automation
+<br>✔ Understand web security, hosting, and deployment
+        <br>✔ Integrate databases with web applications</br>
+    
+<br>🔧 Lab & Practical Work
+    <br>Students will complete hands-on projects, including:
+
+<br>✔ Building a personal portfolio website (HTML/CSS)
+
+<br>✔ Creating a contact form with PHP validation
+
+<br>✔ Developing a simple CMS (Content Management System)
+
+<br>✔ Designing a database-driven web app (e.g., student records system)<br><br>
+
+
+</p>
+    </div>
+  </section>
+
+  <section id="syllabus">
+    <h2>Course Syllabus</h2>
+    
+    <div class="content-block">
+      <h3>Unit 1: Introduction to HTML & CSS</h3>
+      <p>XHTML Evolution of HTML and XHTML- Standard XHTML Document Structure- Basic Text Markup-Images-Hypertext Links-Lists-Tables- Forms- Frames. Cascading Style Sheets Introduction to CSS-Levels of Style Sheets- Style Specification Formats- Selector Forms- Property Value Forms - Font Properties-List Properties - Color-Alignment of Text-Background Images-Span and Div Tags.</p>
+    </div>
+    
+    <div class="content-block">
+      <h3>Unit 2: XML</h3>
+      <p>Introduction to SGML - features of XML -XML as a subset of SGML-XML Vs HTML-Views of an XML document Syntax of XML- XML Document Structure Namespaces- XML Schemas- simple XML documents-Different forms of markup that can occur in XML documents-Document Type declarations -Creating XML DTDs - Displaying XML Data in HTML browser
+</p>
+    </div>
+    
+    <div class="content-block">
+      <h3>Unit 3: Perl Programming</h3>
+      <p>Origin and Use of Perl- Scalars and their Operations - Assignment Statements and Simple Input and Output-Control Statements- Fundamentals of Arrays-Hashes-Functions-Pattern Matching-Simple programs in Perl -Using Perl for CGI Programming.
+</p>
+    </div>
+    
+    <div class="content-block">
+      <h3>Unit 4: PHP</h3>
+      <p>Origin and Use of PHP-Overview of PHP-General Syntactic Characteristics Operations and Expressions-Control Statements- Arrays- Functions-Pattern Matching- Form Handling- Files-Cookies-Session Tracking.
+</p>
+    </div>
+    
+    <div class="content-block">
+      <h3>Unit 5: MySQL</h3>
+      <p>Basics, query design & functions, database operations, procedures, simple programs in php and mysql</p>
+    </div>
+  </section>
+
+  <section id="lab">
+    <h2>Lab Manual</h2>
+    
+    <div class="content-block">
+      <div class="lab-list">
+        <div class="lab-item">
+          <img src="https://i.postimg.cc/yYms7FPn/lm.png" 
+               alt="Lab Manual Part 1" 
+               class="content-img">
+        </div>
+        <div class="lab-item">
+          <img src="https://i.postimg.cc/MpskGtj0/lm-2.png" 
+               alt="Lab Manual Part 2" 
+               class="content-img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <p> Example 1:HTML5 Form Validation</p>
+  <div class="content-block">
+  <h3>HTML5 Form Validation</h3>
+  <form id="registerForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required 
+           placeholder="Enter valid email">
+    
+    <label for="pass">Password (8+ chars):</label>
+    <input type="password" id="pass" required
+           minlength="8" pattern="^(?=.*\d).{8,}$">
+    
+    <label for="age">Age:</label>
+    <input type="number" id="age" min="18" max="100">
+    
+    <button type="submit">Register</button>
+  </form>
+  <script>
+    document.getElementById('registerForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Form validated successfully!');
+    });
+  </script>
+</div>
+  
+  <p>Example 2: CSS Grid Layout</p>
+  
+  <div class="content-block">
+  <h3>CSS Grid Layout</h3>
+  <div class="grid-example">
+    <div class="header">Header</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="main">Main Content</div>
+    <div class="footer">Footer</div>
+  </div>
+  <style>
+    .grid-example {
+      display: grid;
+      grid-template: 
+        "header header" 80px
+        "sidebar main" 200px
+        "footer footer" 50px / 150px 1fr;
+      gap: 10px;
+    }
+    .header { grid-area: header; background: #3498db; }
+    .sidebar { grid-area: sidebar; background: #2ecc71; }
+    .main { grid-area: main; background: #e74c3c; }
+    .footer { grid-area: footer; background: #f39c12; }
+  </style>
+</div>
+  <p> Example 3:JavaScript DOM Manipulation</p>
+  <div class="content-block">
+  <h3>DOM Manipulation</h3>
+  <button id="colorBtn">Change Colors</button>
+  <div id="colorBox" style="width:100px;height:100px;background:#ccc;margin:10px 0;"></div>
+  <script>
+    document.getElementById('colorBtn').addEventListener('click', () => {
+      const box = document.getElementById('colorBox');
+      box.style.background = `hsl(${Math.random()*360}, 70%, 50%)`;
+      box.textContent = box.style.background;
+    });
+  </script>
+</div>
+  
+  
+  <section id="references">
+    <h2>References</h2>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+        <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+        <li><a href="https://www.php.net/manual/en/" target="_blank">PHP Documentation</a></li>
+        <li><a href="https://perldoc.perl.org/" target="_blank">Perl Documentation</a></li>
+         <li><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network </a></li>
+        <li><a href="https://developer.microsoft.com/" target="_blank">Microsoft Developer</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Web Technology Course | Department of Computer Science</p>
+  </footer>
+</body>
+</html>
